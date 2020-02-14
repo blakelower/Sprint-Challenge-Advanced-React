@@ -3,6 +3,10 @@ import "./App.css";
 import Playlist from "./component/Playlist";
 import Navbar from './component/Navbar';
 
+exports.sum = function(a, b) {
+return a + b;
+};
+
 function App() {
   return (
     <div className="App">
